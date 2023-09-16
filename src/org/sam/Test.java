@@ -20,6 +20,17 @@ public class Test {
 		int hs2 = System.identityHashCode(a2);
 		
 		System.out.println("Hs1:"+hs1+"\nHs2:"+hs2);
+
+
+		for (int i = 1; i <= 10; i++) {
+
+			System.out.println("Cube Of the Number:" + (i * i * i));
+
+		}
+
+		
+		
+
 	}
 
 }
